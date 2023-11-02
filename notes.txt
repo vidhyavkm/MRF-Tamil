@@ -1,0 +1,64 @@
+M R F 
+
+ES6.
+
+Array Methods:
+
+1. sum of all numbers => reduce
+2. print only odd numbers => filter
+3. add all numbers by 2. => map
+
+Map: 
+
+- This Method is used to create a new array by applying a provided function to each element 
+in the original array.
+- it wont change the length of the array.
+- it will return a new array.
+- it always takes function as a parameter.
+- it works on each and every indexes in an array.
+
+Syntax:
+
+.map(cb(curr,ind,arr))
+
+cb=> a fucntion that defines the transformstion for each element.
+curr => this is a current element being processed.
+index => (optional) index of the current element.
+arr => (optional) the whole array.
+
+filter:
+
+- it always takes function as a parameter.
+- it works on each and every indexes in an array.
+- it will change the original length of the array.
+- it also returns the nerw arrayaith same elements in the array.
+- eliminates something as per the condition.
+
+syntax:
+
+.filter(cb(element,ind,arr))
+
+cb=> a fucntion that defines the transformstion for each element.
+curr => this is a current element being processed.
+index => (optional) index of the current element.
+arr => (optional) the whole array.
+
+
+Reduce:
+
+- it always takes function as a parameter.
+- it works on each and every indexes in an array.
+- it will change the original length of the array.
+- it will return a new value or object.
+
+.filter(cb(accu,curr,ind,arr))
+
+cb=> a function that defines the transformstion for each element.
+accu => the accumulated value.
+curr => this is a current element being processed.
+index => (optional) index of the current element.
+arr => (optional) the whole array.
+
+
+
+
