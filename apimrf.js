@@ -25,17 +25,12 @@ console.log(delDescription);
 const movies2019 = delDescription.filter((elem,ind,arr)=> elem.year===2019);
 console.log(movies2019);
 
-const oddMovies = delDescription.filter((_,ind,_)=> ind%!2 ==0);
+const oddMovies = data.filter((ind)=> ind%2 ==0);
 console.log(oddMovies);
 
 const div= data.reduce((accu,curr,ind,arr)=>{
     return accu+curr.votes
 },0)
 }
-
-// print only the movies relaesed in 2019.
-
-//print only the odd number movies.
-
-//print overall votes using reduce.
-
+const data = getData(url,displayData)
+console.log(data);
